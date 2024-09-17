@@ -1,12 +1,8 @@
-import React from 'react';
-import './App.css';
-import Api from './api/api';
-
+import React from "react";
+import "./App.css";
 
 const App = () => {
-  return <div>
-    <Api />
-  </div>;
+  return <div></div>;
 };
 
 export default App;
