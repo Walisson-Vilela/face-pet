@@ -3,6 +3,7 @@ import React from "react";
 const TokenPost = () => {
   const [username, setUserName] = React.useState("");
   const [password, setPassword] = React.useState("");
+  const [token, setToken] = React.useState("");
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -20,6 +21,7 @@ fetch('https://dogsapi.origamid.dev/json/jwt-auth/v1/token',{
   return response.json();
 }).then(json => {
   console.log(json);
+  setToken(json.token);
   return json;
 })
   }
