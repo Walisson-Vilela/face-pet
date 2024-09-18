@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import LoginForm from './LoginForm';
 import LoginPasswordLost from './LoginPasswordLost';
 import LoginPasswordReset from './LoginPasswordReset';
+import LoginCreate from './LoginCreate';
 
 const Login = () => {
   return (
