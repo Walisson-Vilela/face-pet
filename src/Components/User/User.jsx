@@ -2,7 +2,7 @@ import React from 'react'
 
 const User = () => {
   return (
-    <div>Usuario</div>
+    <section className='container'>Usuario</section>
   )
 }
 
